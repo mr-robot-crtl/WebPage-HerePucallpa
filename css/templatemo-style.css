@@ -438,9 +438,6 @@ http://www.templatemo.com/tm-515-eatery
     border-color: transparent;
     color: #ffffff;
   }
-
-
-
   /*---------------------------------------
       History Pucallpa             
   -----------------------------------------*/
@@ -1178,6 +1175,60 @@ figure.effect-ming:hover img { opacity: 0.4; }
 .lugares h2{
   color: #ffffff;
 }
+
+/*style Lugares*/
+#banner_AtracTuris{
+  background: url('../images/lugares/bannerTurismo.jpg') center center no-repeat ;
+  background-size: cover;
+  padding: 9pc;
+}
+/*Clase Padre*/
+.contenedorGeneral{
+  width: 90%;
+  margin: auto;
+}
+.contenedorGeneral> div{
+  padding: 20px;
+  border-radius: 4px;
+}
+.contenedorGeneral .titulo{
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+/*Clase Hijo*/
+.contentLugar{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.contentLugar > div{
+  padding: 20px;
+  border-radius: 4px;
+}
+.contentLugar .imageLugar{
+  grid-row: span 2;
+}
+.contentLugar .txtLugar{
+  grid-column: span 3;
+  background-color: aquamarine;
+}
+/*btn ver mas*/
+.contentLugar .btn-vermas{
+  grid-column: span 4;
+  text-align: center;
+
+}
+/*style lugar especifico*/
+.contentLugar .galeria-fotos{
+  grid-column: 2 / 5;
+}
+.contentLugar .recomendacion{
+  grid-column: 2 / 5;
+}
+.contentLugar .google-maps{
+  grid-column: span 4;
+}
+
 
 /*finnnnnnnn*/
 
