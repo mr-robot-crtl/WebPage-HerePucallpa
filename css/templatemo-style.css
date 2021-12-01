@@ -1228,7 +1228,29 @@ figure.effect-ming:hover img { opacity: 0.4; }
 .contentLugar .google-maps{
   grid-column: span 4;
 }
+/*Clase padre Gria*/
+/*Clase Padre*/
 
+/* clase hijo Guia*/
+.contentGuia{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+.contentGuia .subtitulo{
+  grid-column: 1 /4;
+  
+}
+.contentGuia .img-guia{ text-align: center;
+}
 
+hr{
+  size: 40px;
+  
+  border-top: 3px solid rgb(121, 167, 185); 
+}
 /*finnnnnnnn*/
+
+ 
 
