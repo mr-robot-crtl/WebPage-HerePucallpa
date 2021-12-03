@@ -581,6 +581,10 @@ http://www.templatemo.com/tm-515-eatery
   .menu-thumb img {
     width: 100%;
     transition: 0.5s;
+    /* modificado */
+    padding:10px ;
+    height: 400px;
+
   }
 
   .menu-thumb:hover img {
@@ -1192,7 +1196,7 @@ figure.effect-ming:hover img { opacity: 0.4; }
   border-radius: 4px;
 }
 .contenedorGeneral .titulo{
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 5;
 }
 /*Clase Hijo*/
@@ -1205,12 +1209,16 @@ figure.effect-ming:hover img { opacity: 0.4; }
   padding: 20px;
   border-radius: 4px;
 }
-.contentLugar .imageLugar{
-  grid-row: span 2;
-}
+.imageLugar img{
+  width: 110%;
+  height: 200px;
+} 
 .contentLugar .txtLugar{
   grid-column: span 3;
   background-color: aquamarine;
+}
+.contentLugar .horario{
+  grid-column: span 4;
 }
 /*btn ver mas*/
 .contentLugar .btn-vermas{
@@ -1220,7 +1228,15 @@ figure.effect-ming:hover img { opacity: 0.4; }
 }
 /*style lugar especifico*/
 .contentLugar .galeria-fotos{
-  grid-column: 2 / 5;
+  grid-column: 1 / 5;
+  text-align: center;
+}
+/* niño shipibo */
+.contentLugar .img-boy-shipibo{
+  text-align: center;
+}
+.img-boy-shipibo img{
+  width: 60%;
 }
 .contentLugar .recomendacion{
   grid-column: 2 / 5;
@@ -1228,7 +1244,12 @@ figure.effect-ming:hover img { opacity: 0.4; }
 .contentLugar .google-maps{
   grid-column: span 4;
 }
+.contentLugar .mas-lugares{
+  text-align: center;
+}
+.mas-lugares img{
+  width: 100%;
+  height: 170px;
+}
 
-
-/*finnnnnnnn*/
 
