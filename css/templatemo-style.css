@@ -1170,6 +1170,11 @@ figure.effect-ming:hover img { opacity: 0.4; }
     .tm-social-links li { margin-right: 3px; }
 }
 
+/*AQUI COMIENZA NUESTRO STYLE*/
+@media (max-width: 1000px) {
+  .menu-thumb img{ height: auto; }
+}
+
 /*banner background*/
 #banner{
   background: url('../images/banner-background.jpg') center center no-repeat ;
@@ -1215,7 +1220,6 @@ figure.effect-ming:hover img { opacity: 0.4; }
 } 
 .contentLugar .txtLugar{
   grid-column: span 3;
-  background-color: aquamarine;
 }
 .contentLugar .horario{
   grid-column: span 4;
@@ -1252,7 +1256,6 @@ figure.effect-ming:hover img { opacity: 0.4; }
   height: 170px;
 }
 /*Clase Padre*/
-
 /* clase hijo Guia*/
 .contentGuia{
   display: grid;
@@ -1264,7 +1267,12 @@ figure.effect-ming:hover img { opacity: 0.4; }
   grid-column: 1 /4;
   
 }
-.contentGuia .img-guia{ text-align: center;
+.contentGuia img{
+  width: 100%;
+  height: 220px;
+}
+.contentGuia .img-guia{ 
+  text-align: center;
 }
 
 hr{
@@ -1291,7 +1299,7 @@ hr{
 }
 
 .miniG_dia .galery-miniG{
-  grid-column: 2 / 4;
+  grid-column: 1 / 4;
 }
 .miniG_dia .recomen-miniG{
   grid-column: 2 / 4; 
